@@ -30,24 +30,34 @@
 
 
 /* ABOUT MEDIA CSS */
+@media(max-width: 1200px){
+    .about-section2{
+        flex-direction: column;
+        gap: .5rem;
+    }
+    .img-div img{
+        width: 100%;
+    }
+}
+
 @media (max-width: 900px) {
-    .about-section{
+    .about-section, .about-section2{
         flex-direction: column;
         gap: .5rem;
     }
 }
 
 @media (max-width: 800px) {
-    .about-section p{
+    .about-section p, .about-section2 p{
         font-size: 1.2rem;
     }
-    .vids-div video{
+    .vids-div video, .img-div img{
         width: 80%;
     }
 }
 
 @media (max-width: 500px) {
-    .vids-div video{
+    .vids-div video, .img-div img{
         width: 100%;
     }
 }

@@ -38,14 +38,16 @@
 
 
 /* ABOUT US SECTION */
-.about-section{
+.about-section, .about-section2{
     background: var(--dark1);
     display: flex;
     gap: 5rem;
-    padding-top: 5.5rem;
+}
+.about-section2{
+    flex-direction: row-reverse;
 }
 
-.vids-div{
+.vids-div, .img-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +60,18 @@
     box-shadow: 0 0 5px var(--light1);
 }
 
+.img-div img{
+    width: 50rem;
+    vertical-align: middle;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--light1);
+}
+
 
 /* TRAINING SECTION */
 .training-section{
     text-align: center;
-    padding: 5rem 0;
+    padding: 4rem 0;
 }
 
 .training-section h2{
@@ -71,7 +80,7 @@
 }
 .training-section p{
     margin-bottom: 5rem;
-    padding: 0 .5rem;
+    padding: 0 1.5rem;
 }
 
 .training-section img{
@@ -189,6 +198,7 @@
 }
 .google-map h2{
     text-align: center;
+    margin-bottom: 4rem;
 }
 iframe{
     width: 100%;
@@ -198,7 +208,11 @@ iframe{
 /* TRAINERS */
 .trainers-section{
     text-align: center;
-    padding: 5rem 5rem;
+    padding: 4rem 5rem;
+}
+
+.trainers-section h2{
+    margin-bottom: 4rem;
 }
 
 .trainers-section .gym-trainers{
@@ -222,6 +236,7 @@ iframe{
 .newsletter{
     background: #123;
     text-align: center;
+    padding: 4rem 2.5rem 5.5rem;
 }
 .newsletter h2{
     margin-bottom: 2.5rem;
@@ -294,7 +309,7 @@ textarea{
     width: 100%;
     color: var(--light1);
     background: #111;
-    padding: 2.5rem 5rem;
+    padding: 5rem;
 }
 .footer .div img{
     width: 6rem;
