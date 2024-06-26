@@ -1,0 +1,357 @@
+@import url(./style.css);
+
+/* HERO SECTION */
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    color: var(--light1);
+    background: url(../imgs/hero-img/157364-abstract-red-background-vector-illustration.jpg)no-repeat, linear-gradient(#333, darkred, #333);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    padding: 18rem 5% 5%;
+}
+.hero-section h1{
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+.hero-section p{
+    font-size: 1.5rem;
+    margin-bottom: 7.5rem;
+}
+.hero-section a{
+    font-size: 1.5rem;
+    color: var(--light1);
+    background: var(--other1);
+    padding: 1.5rem;
+    border-radius: 5.5px;
+}
+.hero-section a:hover{
+    background: red;
+}
+.hero-section img{
+    border-radius: 5px;
+    box-shadow: 0px 1px 0px 0px #999;
+}
+
+
+/* ABOUT US SECTION */
+.about-section{
+    background: var(--dark1);
+    display: flex;
+    gap: 5rem;
+    padding-top: 5.5rem;
+}
+
+.vids-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.vids-div video{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--light1);
+}
+
+
+/* TRAINING SECTION */
+.training-section{
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.training-section h2{
+    margin: 0;
+    padding: 0;
+}
+.training-section p{
+    margin-bottom: 5rem;
+    padding: 0 .5rem;
+}
+
+.training-section img{
+    width: 10rem;
+    color: #fff;
+    background: var(--light1);
+    border-radius: 5px;
+}
+
+.training-section h3{
+    font-size: 3rem;
+}
+
+.training-section img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.training-section h3{
+    font-size: 2.3rem;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.training-section .text{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #123;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .4s ease-in-out;
+
+}
+.container:hover .overlay {
+    height: 100%;
+}
+
+.training-section .training-service{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.training-service .container{
+    position: relative;
+    width: 100%;
+    height: 40rem;
+}
+
+.a .bg h3{
+    color: var(--light1);
+}
+
+.a .bg .text{
+    color: var(--light1);
+}
+
+.a .bg p{
+    display: flex;
+    gap: .5rem;
+    color: var(--other1);
+    position: absolute;
+    top: 85%;
+    left: 50.5%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.a .bg i{
+    font-size: 1.5rem;
+    color: var(--other1);
+}
+
+.bg{
+    background: url(../imgs/training-img/group-fitness-bg.png)no-repeat, #666;
+    background-position: top;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+.bg2{
+    background: url(../imgs/training-img/personal-training-bg.jpg)no-repeat, #666;
+    background-size: cover;
+}
+.bg3{
+    background: url(../imgs/training-img/open-gym-bg.jpg)no-repeat, #666;
+    background-position: center;
+}
+
+
+/* GOOGLE MAP LOCATION */
+.google-map{
+    padding: 0;
+}
+.google-map h2{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+}
+
+
+/* TRAINERS */
+.trainers-section{
+    text-align: center;
+    padding: 5rem 5rem;
+}
+
+.trainers-section .gym-trainers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.trainers-section .gym-trainers img{
+    width: 100%;
+    height: 35rem;
+    vertical-align: middle;
+}
+
+.trainers-section .gym-trainers h3{
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+
+/* NEWSLETTER */
+.newsletter{
+    background: #123;
+    text-align: center;
+}
+.newsletter h2{
+    margin-bottom: 2.5rem;
+}
+.newsletter form input{
+    width: 30%;
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    color: var(--light1);
+    background: transparent;
+    border: 1.5px solid var(--light1);
+    padding: 1rem;
+}
+.newsletter form button{
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: 1.5px solid var(--light1);
+    padding: 1rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.newsletter form button:hover{
+    color: var(--light1);
+    background: var(--other1);
+    border-color: var(--other1);
+}
+
+
+/* CONTACTS */
+.contact-section{
+    text-align: center;
+}
+.contact-section form{
+    padding: 0 25%;
+}
+.contact-section form input, textarea{
+    width: 100%;
+    font-size: 1.5rem;
+    color: var(--light1);
+    background: transparent;
+    border: 1px solid var(--light1);
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
+textarea{
+    height: 10rem;
+    resize: none;
+}
+.contact-section form button{
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    font-weight: 500;
+    background: var(--other1);
+    border: 1.5px solid var(--other1);
+    border-radius: 5px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.contact-section form button:hover{
+    color: var(--other1);
+    background: transparent;
+    box-shadow: 0 0 5px var(--other1);
+}
+
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    color: var(--light1);
+    background: #111;
+    padding: 2.5rem 5rem;
+}
+.footer .div img{
+    width: 6rem;
+    border-radius: 50%;
+}
+.footer .div h4{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+.footer .div p{
+    margin: 0;
+}
+.footer .div a{
+    color: var(--light1);
+}
+
+.footer .hrs{
+    text-align: center;
+}
+.footer .soc{
+    text-align: right;
+}
+
+.footer .soc i{
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-right: 1.5rem;
+    padding: .5rem;
+}
+.footer .soc .fb:hover{
+    color: #4474da;
+    box-shadow: 0 0 5px #4474da;
+}
+.footer .soc .ig:hover{
+    color: #e1306c;
+    box-shadow: 0 0 5px #e1306c;
+}
+
+.footer .div-c{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.copyright{
+    width: 100%;
+    background: #111;
+    text-align: center;
+    padding: 1rem;
+}
+.copyright p{
+    font-family: 'Poppins';
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+span{
+    color: #69a8f1;
+}
