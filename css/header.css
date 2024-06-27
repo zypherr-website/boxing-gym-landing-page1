@@ -14,9 +14,6 @@
     transition: .3s ease-in-out;
 }
 .header.scrolled{
-        background: transparent;
-}
-.header.scrolled{
     background: var(--dark1);
 }
 
@@ -83,6 +80,9 @@
         justify-content: space-between;
         padding: 1.5rem 2rem;
         background-color: var(--dark1);
+    }
+    .header .div .title{
+        display: none;
     }
     .burger{
         display: block;
