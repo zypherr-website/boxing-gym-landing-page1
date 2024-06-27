@@ -76,6 +76,12 @@
     }
 }
 
+@media (max-width: 800px) {
+    .training-section p{
+        font-size: 1.2rem;
+    }
+}
+
 
 /* TRAINERS MEDIA CSS */
 @media (max-width: 1000px) {
