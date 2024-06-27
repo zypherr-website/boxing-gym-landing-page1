@@ -26,6 +26,9 @@
     font-size: 1.5rem;
     color: var(--light1);
 }
+.header .div .title{
+    font-size: 2.5rem;
+}
 
 .header .logo img{
     width: 5.5rem;
