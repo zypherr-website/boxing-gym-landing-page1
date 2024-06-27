@@ -49,7 +49,7 @@
 
 @media (max-width: 800px) {
     .about-section p, .about-section2 p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .vids-div video, .img-div img{
         width: 80%;
@@ -78,7 +78,7 @@
 
 @media (max-width: 800px) {
     .training-section p{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 
