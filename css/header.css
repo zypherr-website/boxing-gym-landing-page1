@@ -81,9 +81,7 @@
         padding: 1.5rem 2rem;
         background-color: var(--dark1);
     }
-    .header .div .title{
-        display: none;
-    }
+
     .burger{
         display: block;
     }
@@ -101,7 +99,7 @@
 
     .nav-menu{
         position: fixed;
-        top: -100%;
+        top: -150%;
         left: 0;
         /* top: 7.5rem; */
         gap: 0;
@@ -117,7 +115,7 @@
         padding-top: 5rem;
     }
     .nav-menu.active{
-        top: 8rem;
+        top: 10rem;
     }
     .nav-menu .nav-link:not(.curr){
         color: var(--light1);
