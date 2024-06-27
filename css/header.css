@@ -115,7 +115,7 @@
         padding-top: 5rem;
     }
     .nav-menu.active{
-        top: 10rem;
+        top: 8rem;
     }
     .nav-menu .nav-link:not(.curr){
         color: var(--light1);
